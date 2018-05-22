@@ -35,7 +35,7 @@ public:
         if (m_pipe[WRITE] > 0)
             close(m_pipe[WRITE]);
     }
-
+//запрос
     void BeginCapture()
     {
         if (!m_init)
